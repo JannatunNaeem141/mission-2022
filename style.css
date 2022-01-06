@@ -16,7 +16,7 @@ p {
     display: inline-block;
     color: white;
     background: #FF5959;
-    padding: 15px 60px;
+    padding: 15px 50px;
     border-radius: 5px;
     font-size: 20px;
 }
@@ -70,7 +70,7 @@ p {
 
 .mission {
     width: 100%;
-    padding-bottom: 100px;
+    padding-bottom: 150px;
 }
 
 .mission h1 {
@@ -152,7 +152,7 @@ p {
 
 .cummunity {
     width: 100%;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
     background-image: url(images/shapes/shape-11.png);
     background-repeat: no-repeat;
     background-position: right;
@@ -186,4 +186,59 @@ p {
 
 .cummunity-content a {
     text-decoration: none;
+}
+
+.skills {
+    width: 100%;
+    padding-bottom: 40px;
+}
+
+.skills h1 {
+    text-align: center;
+    font-size: 60px;
+}
+
+.skills-items {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.skills-item {
+    width: 360px;
+    padding: 30px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.skills-item h2 {
+    font-size: 30px;
+}
+
+.skills-item img {
+    width: 200px;
+}
+
+.footer {
+    width: 100%;
+    padding: 30px 0px;
+    text-align: center;
+    background-color: black;
+}
+
+.footer h1 {
+    font-size: 45px;
+    color: #fff;
+    font-family: 'Lobster', cursive;
+    font-weight: 400;
+}
+
+.tomato {
+    color: #FF5959;
+}
+
+.footer p {
+    font-size: 20px;
+    color: #CCCCCC;
 }
